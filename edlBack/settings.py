@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-2p%ots=x!h(b8r*dzbzn$x=ql*k^n*k$o^(@3e9ej@ykj*l96-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['edl-backend-1.onrender.com']
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Application definition
