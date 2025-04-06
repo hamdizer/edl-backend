@@ -20,4 +20,4 @@ RUN mkdir -p /vol/static
 RUN python manage.py collectstatic --noinput || echo "collectstatic failed"
 
 # Run the application
-CMD ["gunicorn", "myproject.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
